@@ -1,8 +1,10 @@
 body {
     padding-top: 60px;
-    background: lightgray;
+    background: url("https://minqandmode.files.wordpress.com/2012/06/grey-and-white-chevron.jpg");
+    background-size: cover;
     color: black;
     font-family: 'Roboto Mono', monospace;
+    overflow-x: hidden;
 }
 
 #photo {
@@ -28,7 +30,7 @@ body {
 }
 
 .sectionTitles {
-    margin-left: 12px;
+	text-decoration: underline;
     font-size: 40px;
 }
 
@@ -36,6 +38,7 @@ body {
     border-width: 3px;
     border-color: dodgerblue;
     background: grey;
+
 }
 
 #about {
@@ -44,6 +47,8 @@ body {
 }
 
 .photoTitle {
+	text-decoration: underline;
+	margin-top: 8px;
     font-size: 18px;
 }
 
