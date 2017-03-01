@@ -2,102 +2,114 @@
 <html lang="en">
 
 <head>
-    <title>PortfolioProject</title>
+    <title>Portfolio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--CSS Bootstrap-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!--Custom CSS-->
     <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <!--Icons-->
-    <script type="text/javascript" src="https://use.fontawesome.com/68892713fc.js"></script>
+    <!--JQuery/Bootstrap JS-->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--Icons-->
+    <script type="text/javascript" src="https://use.fontawesome.com/68892713fc.js"></script>
     <!--Add Font-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar">
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle navbar-right" data-toggle="collapse" data-target="#navbar">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <!--Collect the nav links, forms, and other content for toggling-->
-                <div class="navbar-collapse collapse navbar-right" id="navbar" aria-expanded="false">
-                    <ul class="nav navbar-nav">
-                        <li class="hidden">
-                            <a class="page-scroll" href="#page-top"></a</li>
-                                <li><a class="page-scroll" href="#page-top">About</a></li>
-                                <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
-                                <li><a class="page-scroll" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
             </div>
+            <!--Collect the nav links, forms, and other content for toggling-->
+            <div class="navbar-collapse collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="colorFont" href="#page-top">About</a></li>
+                    <li><a class="colorFont" href="#portfolio">Portfolio</a></li>
+                    <li><a class="colorFont" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <!--About Section-->
     <section id="about" class="about-section">
-        <div class="container-fluid">
-            <span class="sectionTitles">About</span>
-            <div class="row">
-                <div class="text-center well" >
+        <div class="container-fluid text-center">
+            <span class="sectionTitles"><strong>About Me</strong></span>
+            <div class="row well">
+                <div class="col-md-6 text-center">
                     <p>My name is <span id="name">Roel R. Garcia </span>and welcome to my portfolio/projects page. I have recently graduated with a B.S. in Computer Science and a minor in Mathematics from Texas A&M University-Kingsville. While in school I was a member of the local Association for Computing Machinery (ACM) and American Nuclear Society (ANS). I enjoy programming, reading comicbooks, watching movies, learning about new tech, and traveling the U.S. I have had experience programming in a wide range of languages but I have made this page to show the various front-end web projects that I have been recently working on.</p>
+                </div>
+                <div class="col-md-6 img-responsive">
+                    <img class="rrg" src="images/RRG.JPG" alt="">
                 </div>
             </div>
         </div>
     </section>
     <!--Portfolio Section-->
     <section id="portfolio" class="portfolio-section">
-        <div class="container-fluid">
-            <span class="sectionTitles">Portfolio</span>
+        <div class="container-fluid text-center">
+            <span class="sectionTitles"><strong>Portfolio</strong></span>
             <div class="row">
                 <!--Hideo-->
                 <div class="col-md-6">
-                    <div class="img-responsive text-center">
-                        <a href="https://roe-el.github.io/HideoKojimaTributePage/" target="_blank">
-                            <img alt="" src="images/HideoKojima2.JPG" id="photo" />
-                        </a>
-                        <p class="photoTitle">Tribute Page</p>
-                        <p>A tribute page the japanese game developer Hideo Kojima, built using Bootstrap.</p>
+                    <div class="well">
+                        <div class="img-responsive text-center">
+                            <a href="https://roe-el.github.io/HideoKojimaTributePage/" target="_blank">
+                                <img alt="" src="images/HideoKojima2.JPG" id="photo" />
+                            </a>
+                            <p class="photoTitle">Tribute Page</p>
+                            <p>A tribute page the japanese game developer Hideo Kojima, built using Bootstrap.</p>
+                        </div>
                     </div>
                 </div>
                 <!--Generator-->
                 <div class="col-md-6">
-                    <div class="img-responsive text-center">
-                        <a href="https://roe-el.github.io/RandomQuoteGenerator/" target="_blank"> <img src="images/RandomQuoteGenerator2.JPG" alt="" id="photo" />
-                        </a>
-                        <p class="photoTitle">Random Quote Generator</p>
-                        <p>A random quote generator that uses the QuotesOnDesign API and JSON objects.</p>
+                    <div class="well">
+                        <div class="img-responsive text-center">
+                            <a href="https://roe-el.github.io/RandomQuoteGenerator/" target="_blank"> <img src="images/RandomQuoteGenerator2.JPG" alt="" id="photo" />
+                            </a>
+                            <p class="photoTitle">Random Quote Generator</p>
+                            <p>A random quote generator that uses the QuotesOnDesign API and JSON objects.</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <!--Weather-->
                 <div class="col-md-6">
-                    <div class="img-responsive text-center">
-                        <a href="https://roe-el.github.io/WeatherApp/" target="_blank">
-                            <img alt="" src="images/WeatherApp2.JPG" id="photo" /></a>
+                    <div class="well">
+                        <div class="img-responsive text-center">
+                            <a href="https://roe-el.github.io/WeatherApp/" target="_blank">
+                                <img alt="" src="images/WeatherApp2.JPG" id="photo" /></a>
                             <p class="photoTitle">Weather App</p>
-                        <p>This page gathers your location using your IP and uses the Open Weather API to display information and changes the background depending on the current local weather forecast.</p>
+                            <p>This page gathers your location using your IP and uses the Open Weather API to display information and changes the background depending on the current local weather forecast.</p>
+                        </div>
                     </div>
                 </div>
                 <!--WikipediaViewer-->
                 <div class="col-md-6">
-                    <div class="img-responsive text-center">
-                        <a href="https://roe-el.github.io/WikipediaViewer/" target="_blank">
-                            <img alt="" src="images/WikipediaViewer.JPG" id="photo" /></a>
+                    <div class="well">
+                        <div class="img-responsive text-center">
+                            <a href="https://roe-el.github.io/WikipediaViewer/" target="_blank">
+                                <img alt="" src="images/WikipediaViewer.JPG" id="photo" /></a>
                             <p class="photoTitle">Wikipedia Search</p>
-                        <p>This page is an alternative wikipedia search page which will show ten page options using the Wikipedia API.</p>
+                            <p>This page is an alternative wikipedia search page which will show ten page options based on the search term. Data is retreived using the Wikipedia API.</p>
+                        </div>
                     </div>
                 </div>
             </div>
     </section>
     <!--Contact Section-->
     <section id="contact" class="contact-section">
-        <div class="container-fluid">
-            <span class="sectionTitles">Contact</span>
+        <div class="container-fluid text-center">
+            <span class="sectionTitles"><strong>Contact</strong></span>
             <div class="row text-center">
                 <p>Down below are my github and codepen accounts. Click the icons to open a tab or you can email me at rogar28@gmail.com if you would like to talk.</p>
             </div>
@@ -110,8 +122,15 @@
             </div>
         </div>
     </section>
-    <!--JQuery-->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <div class="footer">
+        <div class="container-fluid">
+            <div class="row clearfix">
+                <h4 class="text-center"><i class="fa fa-copyright"></i><strong>2016-2017 | Roel R. Garcia</strong></h4>
+                <br>
+            </div>
+        </div>
+    </div>
+    </div>
     <!--Custom JS-->
     <script type="text/javascript" src="js/script.js"></script>
 </body>
