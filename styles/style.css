@@ -9,12 +9,18 @@ img{
 #social{
  background-color:white;
 }
+#about{
+	margin-top: 30px;
+}
 #portfolio{
- padding-top:30px;
+ margin-top:30px;
 }
 #contact{
- padding-top:30px;
+ margin-top:30px;
 }
 #small{
- height:323px;
+ height:368px;
+}
+.sectionTitles{
+	font-size:36px;
 }
