@@ -1,41 +1,39 @@
 body {
-	padding-top:30px;
+    padding-top: 60px;
     padding-bottom: 20px;
     background: lightgray;
 }
 
 #photo {
-    height: 350px;
+    height: 320px;
     width: 600px;
     border-style: solid;
+    border-radius: .5em;
     border-color: black;
-    border-width: 1px;
+    border-width: 2px;
     margin-bottom: 8px;
-}
-#name{
-	color:blue;
+    opacity: 0.7;
 }
 
-#about {
-    margin-top: 30px;
+#photo:hover {
+    opacity: 1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
-#portfolio {
-    margin-top: 30px;
-}
-
-#contact {
-    margin-top: 30px;
+#name {
+    color: blue;
 }
 
 .sectionTitles {
+    margin-left: 12px;
     color: slategray;
     font-size: 36px;
+    margin-top: 60000px;
 }
 
 .well {
-    margin-left: 8px;
-    margin-right: 8px;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 
 .photoTitle {
