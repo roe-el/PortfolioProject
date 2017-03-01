@@ -30,11 +30,13 @@ body {
 }
 
 .sectionTitles {
+
 	text-decoration: underline;
     font-size: 40px;
 }
 
 .well {
+	margin-top: 20px;
     border-width: 3px;
     border-color: dodgerblue;
     background: grey;
