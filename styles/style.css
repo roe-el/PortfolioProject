@@ -1,20 +1,19 @@
 body {
-    padding-top: 50px;
+	padding-top:30px;
     padding-bottom: 20px;
-    background: gray;
+    background: lightgray;
 }
 
 #photo {
     height: 350px;
-    width: 500px;
+    width: 600px;
     border-style: solid;
     border-color: black;
     border-width: 1px;
     margin-bottom: 8px;
 }
-
-#small {
-    height: 220px;
+#name{
+	color:blue;
 }
 
 #about {
@@ -30,9 +29,16 @@ body {
 }
 
 .sectionTitles {
-	color:orange;
+    color: slategray;
     font-size: 36px;
 }
-p{
-	color:white;
+
+.well {
+    margin-left: 8px;
+    margin-right: 8px;
 }
+
+.photoTitle {
+    font-size: 18px
+}
+
