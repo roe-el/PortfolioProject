@@ -12,6 +12,7 @@ img {
     border-color: dodgerblue;
     border-width: 3px;
 }
+
 .sectionTitles,
 .nav.navbar-nav.navbar-right li a,
 .footer {
@@ -19,7 +20,6 @@ img {
 }
 
 .image:hover > a > img {
-
     opacity: 0.2;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
@@ -86,44 +86,39 @@ img {
 }
 
 .image {
-    height:100%;
-    width:auto;
-    margin:auto;
+    height: 100%;
+    width: auto;
+    margin: auto;
     position: relative;
-
 }
 
 .text {
-    height:90%;
+    height: 90%;
     font-size: 1.5em;
     color: white;
     position: absolute;
     visibility: hidden;
-    top:10%;
+    top: 10%;
     border-bottom-style: solid;
     border-bottom-color: lightgreen;
     border-bottom-width: 4px;
-     
-    
 }
 
 .image:hover .text {
     visibility: visible;
 }
 
-.text1{
-    display:none;
+.text1 {
+    display: none;
 }
-.hovered-title{
+
+.hovered-title {
     background-color: dodgerblue;
-    border-radius:4px;
-    padding:2px 6px;
-
+    border-radius: 4px;
+    padding: 2px 6px;
+    margin: 8px 8px 8px 8px;
 }
-.text-hover{
+
+.text-hover {
     margin-bottom: 12px;
-
-}
-.text-hover:hover .text1{
-    display:block;
 }
