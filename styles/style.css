@@ -30,7 +30,9 @@ img {
 }
 
 .about-section {
-    background-color: black;
+    background-image: url("../images/ilya-pavlov-87438.jpg");
+    /* Photo by Ilya Pavlov on Unsplash */
+    background-size: cover;
 }
 
 .well {
