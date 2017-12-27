@@ -16,25 +16,28 @@
     <script type="text/javascript" src="https://use.fontawesome.com/68892713fc.js"></script>
     <!--Add Font-->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
-    <link rel='icon' type'image/x-icon' href='images/code.png'/>
+    <link rel='icon' type 'image/x-icon' href='images/code.png' />
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar">
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                <a class="navbar-brand" href="#"><span id="brand">Roel R. Garcia</span></a>
             </div>
             <!--Collect the nav links, forms, and other content for toggling-->
             <div class="navbar-collapse collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right text-right">
                     <li><a class="colorFont" href="#page-top">ABOUT</a></li>
-                    <li><a class="colorFont" href="#portfolio">PORTFOLIO</a></li>
-                    <li><a class="colorFont" href="#contact">CONTACT</a></li>
+                    <li><a class="colorFont" href="#portfolio">PROJECTS</a></li>
+                    <li><a class="colorFont" href="#other">OTHER ACTIVITES</a></li>
+                    <li><a class="colorFont" href="#contact">CONTACT ME</a></li>
                 </ul>
             </div>
         </div>
@@ -42,14 +45,18 @@
     <!--About Section-->
     <section id="about" class="about-section">
         <div class="container-fluid text-center">
-            <span class="sectionTitles"><strong>About Me</strong></span>
-            <div class="row well">
-                <div class="col-md-6 img-responsive">
-                    <img class="rrg" src="images/ACMPhoto.jpg" alt="Photo of Roel">
-                </div>
-                <div class="col-md-6 text-left">
-                    <p>Hello, I'm Roel.
-                    <p>This page is to showcase some of the projects that I've worked on and show some of what I know. I'm always learning and trying out new things so be on the lookout for new projects and content.
+            <div class="row well"> <span class="sectionTitles"><strong>ABOUT ME</strong></span>
+                <div class="row">
+                    <div class="col-md-6 img-responsive">
+                        <img class="rrg" src="images/ACMPhoto.jpg" alt="Photo of Roel">
+                    </div>
+                    <div class="col-md-6 text-left">
+                        <p>
+                            Bachelors of Science for Computer Science and minor in Mathematics from Texas A&amp;M - Kingsville. Fan of movies, television, comics, programming, and Information Technology. Always striving to learn more; tech is always changing.
+                            <p><strong>Software:</strong> MS Office(Excel, Word, PowerPoint), Visual Studio, Git, Eclipse, Sublime, Eclipse, Sublime
+                                <p><strong>OS:</strong> Windows 7/8/10, Windows Server 2012 R2, CentOS, Ubuntu, Kali Linux
+                                    <p><strong>Languages/Frameworks:</strong> Java, HTML5/CSS/SCSS, JavaScript, SQL, PHP7, Python, Bootstrap, jQuery
+                    </div>
                 </div>
             </div>
         </div>
@@ -57,7 +64,7 @@
     <!--Portfolio Section-->
     <section id="portfolio" class="portfolio-section">
         <div class="container-fluid text-center">
-            <span class="sectionTitles"><strong>Portfolio</strong></span>
+            <span class="sectionTitles"><strong>PROJECTS</strong></span>
             <div class="row">
                 <!--StephenKing-->
                 <div class="col-md-6">
@@ -66,10 +73,10 @@
                             <div class='image'>
                                 <a href="https://roe-el.github.io/StephenKingPage/" target="_blank" rel="noopener">
                                     <img alt="" src="images/StephenKing.JPG" id="photo" />
-                                    <p class="text"><strong>A tribute page I created for the world renowned author Stephen King using HTML and CSS.</strong></p>
+                                    <p class="text"><strong>Tribute page I created for the world renowned author Stephen King using HTML and CSS.</strong></p>
                                 </a>
                             </div>
-                            <p class="photoTitle">Tribute Page</p>
+                            <p><em>Tribute Page</em></p>
                         </div>
                     </div>
                 </div>
@@ -80,10 +87,10 @@
                             <div class='image'>
                                 <a href="https://roe-el.github.io/RandomQuoteGenerator/" target="_blank" rel="noopener">
                                     <img src="images/RandomQuoteGenerator2.JPG" alt="" id="photo" />
-                                    <p class='text'><strong>A random quote generator that uses the QuotesOnDesign API and JSON objects. It also allows users to tweet the quotes.</strong></p>
+                                    <p class='text'><strong>Random quote generator that uses the QuotesOnDesign API and JSON objects. It also allows users to tweet the quotes.</strong></p>
                                 </a>
                             </div>
-                            <p class="photoTitle">Random Quote Generator</p>
+                            <p><em>Random Quote Generator</em></p>
                         </div>
                     </div>
                 </div>
@@ -96,10 +103,10 @@
                             <div class='image'>
                                 <a href="https://roe-el.github.io/WeatherApp/" target="_blank" rel="noopener">
                                     <img alt="" src="images/WeatherApp2.JPG" id="photo" />
-                                    <p class='text'><strong>This page gathers your location using your IP and uses the Open Weather API to display information. The background and icons change depending on the current local weather forecast.</strong></p>
+                                    <p class='text'><strong>Gathers your location using your IP and uses the Open Weather API to display information. The background and icons change depending on the current local weather forecast.</strong></p>
                                 </a>
                             </div>
-                            <p class="photoTitle">Weather App</p>
+                            <p><em>Weather App</em></p>
                         </div>
                     </div>
                 </div>
@@ -113,7 +120,7 @@
                                     <p class='text'><strong>This page is an alternative wikipedia search page which will show ten page options based on the search term. Data is retreived using the Wikipedia API.</strong></p>
                                 </a>
                             </div>
-                            <p class="photoTitle">Wikipedia Search</p>
+                            <p><em>Wikipedia Search</em></p>
                         </div>
                     </div>
                 </div>
@@ -121,43 +128,41 @@
     </section>
     <section id='other' class='other-section'>
         <div class="container-fluid text-center">
-            <span class="sectionTitles"><strong>Other</strong></span>
-            <div class="well">
-                <div class="row text-center">
-                    <p>Click to view the descriptions of these other activities/projects.</p>
-                    <div class='row'>
-                        <div class='text-hover col-md-4'>
-                            <button class='other-title'>Comics+</button>
-                            <p class='text1'>Developed, along with my partner, an ecommerce website that allowed customers to browse products, add items to a shopping cart, and submit orders. We set up a database using MySQL to create and populate customers, payments, products, and cart tables with data.</p>
-                        </div>
-                        <div class='text-hover col-md-4'>
-                            <button class='other-title'>Javelina Shuttle Tracker</button>
-                            <p class='text1'>Acted as team leader among four team members. I set up meetings and delegated work while also working alongside my teammates to compelete the project. We developed and presented a low cost solution for tracking the university shuttle buses that run throughout the campus and local community. I personally worked on each part of the project including: Android app programming, Arduino Uno programming, database solutions, testing, writing and editing the project report, and creating Power Points for presentations.</p>
-                        </div>
-                        <div class='text-hover col-md-4'>
-                            <button class='other-title'>Udacity Courses</button>
-                            <p class='text1'>Courses that I have completed from Udacity: <em>How to Use Git and GithHub</em>, <em>Add Google Maps to your Android App</em>, <em>Google Location Services on Android</em>, <em>Intro to Java Programming</em>, and <em>Android Development for Beginners</em>.</p>
-                        </div>
+            <span class="sectionTitles"><strong>OTHER ACTIVITIES</strong></span>
+            <div class="row text-center">
+                <p>Click to view the descriptions of these other activities/projects.</p>
+                <div class='row'>
+                    <div class='text-hover col-md-4'>
+                        <button class='other-title'>Comics+</button>
+                        <p class='text1'>Developed, along with my partner, an ecommerce website that allowed customers to browse products, add items to a shopping cart, and submit orders. We set up a database using MySQL to create and populate customers, payments, products, and cart tables with data.</p>
                     </div>
-                    <div class='row'>
-                        <div class='text-hover col-md-4'>
-                            <button class='other-title'>Codecademy</button>
-                            <p class='text1'>Courses that I have completed from Codecademy: <em>HTML & CSS</em>, <em>Make a Website</em>, <em>Learn JavaScript</em>, and <em>jQuery</em>.</p>
-                        </div>
-                        <div class='text-hover col-md-4'>
-                            <button class='other-title'>freeCodeCamp</button>
-                            <p class='text1'>I have gone through several of their challanges and tutorials on subjects such as HTML5, CSS, Bootstrap, JavaScript, jQuery, data structures, object oriented programming, APIs, Ajax, and algorithms.</p>
-                        </div>
-                        <div class='text-hover col-md-4'>
-                            <button class='other-title'>CyberAces</button>
-                            <p class='text1'>I viewed and completed all the tutorials offered by the site on subjects such as Linux/Windows Operating Systems, Networking and the OSI layers, and System Administration with scripting using php, bash, and Powershell.</p>
-                        </div>
+                    <div class='text-hover col-md-4'>
+                        <button class='other-title'>Javelina Shuttle Tracker</button>
+                        <p class='text1'>Acted as team leader among four team members. I set up meetings and delegated work while also working alongside my teammates to compelete the project. We developed and presented a low cost solution for tracking the university shuttle buses that run throughout the campus and local community. I personally worked on each part of the project including: Android app programming, Arduino Uno programming, database solutions, testing, writing and editing the project report, and creating Power Points for presentations.</p>
                     </div>
-                    <div class='row'>
-                        <div class='text-hover col-md-12'>
-                            <button class='other-title'>ACM Chapter Website</button>
-                            <p class='text1'>While a member of my universities ACM chapter, I helped write and refactor code which was used to create the chapter <a href='https://www.acm-tamuk.com/' target='_blank' rel='noopener'>website</a>.</p>
-                        </div>
+                    <div class='text-hover col-md-4'>
+                        <button class='other-title'>Udacity Courses</button>
+                        <p class='text1'>Courses that I have completed from Udacity: <em>How to Use Git and GithHub</em>, <em>Add Google Maps to your Android App</em>, <em>Google Location Services on Android</em>, <em>Intro to Java Programming</em>, and <em>Android Development for Beginners</em>.</p>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='text-hover col-md-4'>
+                        <button class='other-title'>Codecademy</button>
+                        <p class='text1'>Courses that I have completed from Codecademy: <em>HTML & CSS</em>, <em>Make a Website</em>, <em>Learn JavaScript</em>, and <em>jQuery</em>.</p>
+                    </div>
+                    <div class='text-hover col-md-4'>
+                        <button class='other-title'>freeCodeCamp</button>
+                        <p class='text1'>I have gone through several of their challanges and tutorials on subjects such as HTML5, CSS, Bootstrap, JavaScript, jQuery, data structures, object oriented programming, APIs, Ajax, and algorithms.</p>
+                    </div>
+                    <div class='text-hover col-md-4'>
+                        <button class='other-title'>CyberAces</button>
+                        <p class='text1'>I viewed and completed all the tutorials offered by the site on subjects such as Linux/Windows Operating Systems, Networking and the OSI layers, and System Administration with scripting using php, bash, and Powershell.</p>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='text-hover col-md-12'>
+                        <button class='other-title'>ACM Chapter Website</button>
+                        <p class='text1'>While a member of my universities ACM chapter, I helped write and refactor code which was used to create the chapter <a href='https://www.acm-tamuk.com/' target='_blank' rel='noopener'>website</a>.</p>
                     </div>
                 </div>
             </div>
@@ -167,20 +172,21 @@
     <!--Contact Section-->
     <section id="contact" class="contact-section">
         <div class="container-fluid text-center">
-            <span class="sectionTitles"><strong>Contact</strong></span>
+            <span class="sectionTitles"><strong>CONTACT ME</strong></span>
             <div class="well">
                 <div class="row text-center">
-                    <p></p>
-                </div>
-                <!--Social Media Icons-->
-                <div class="row text-center">
-                    <a class='social' href="http://www.github.com/roe-el" target="_blank" rel="noopener"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
-                    <a class='social' href="http://codepen.io/roe-el/" target="_blank" rel="noopener"><i class="fa fa-codepen fa-3x" aria-hidden="true"></i></a>
-                    <a class='social' href="https://www.linkedin.com/in/roel-garcia-375045140/" target="_blank" rel="noopener"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
-                    <a class='social' href="mailto:rogar28@gmail.com"><i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i></a>
+                    <div class="col-md-8">
+                        <p>Feel free to send me an email anytime. I'm usually up all the time and would be happy to answer any questions about myself, my experience, my resume, or just about anything. Recommend some online courses, books, or comics.</p>
+                    </div>
+                    <!--Social Media Icons-->
+                    <div class="col-md-4">
+                        <a class='social' href="http://www.github.com/roe-el" target="_blank" rel="noopener"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+                        <a class='social' href="http://codepen.io/roe-el/" target="_blank" rel="noopener"><i class="fa fa-codepen fa-3x" aria-hidden="true"></i></a>
+                        <a class='social' href="https://www.linkedin.com/in/roel-garcia-375045140/" target="_blank" rel="noopener"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
+                        <a class='social' href="mailto:rogar28@gmail.com"><i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i></a>
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
     <div class="footer">
         <div class="container-fluid">
