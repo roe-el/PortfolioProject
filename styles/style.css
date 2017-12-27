@@ -1,7 +1,8 @@
 body {
     font-family: 'Roboto Mono', monospace;
     overflow-x: hidden;
-    color: white;
+    color: #000;
+    margin: 0;
 }
 
 img {
@@ -13,7 +14,28 @@ img {
     border-width: 3px;
 }
 
-.sectionTitles,
+li:hover {
+    background-color: #D3D3D3;
+}
+
+.navbar li a {
+    font-size: 1.2em;
+}
+
+.navbar-brand {
+    margin: 0;
+    padding: 15px 30px;
+    font-size: 1.5em;
+}
+
+#brand {
+    color: #fff;
+}
+
+#brand:hover {
+    color: dodgerblue;
+}
+
 .nav.navbar-nav.navbar-right li a,
 .footer {
     color: dodgerblue;
@@ -25,7 +47,7 @@ img {
 }
 
 .sectionTitles {
-    text-decoration: underline;
+    color: black;
     font-size: 40px;
 }
 
@@ -33,33 +55,31 @@ img {
     background-image: url("../images/ilya-pavlov-87438.jpg");
     /* Photo by Ilya Pavlov on Unsplash */
     background-size: cover;
+    height: 700px;
 }
 
 .well {
     margin-top: 8px;
     border-width: 3px;
     border-color: dodgerblue;
-    background: grey;
+    background-color: #D3D3D3;
 }
 
 .portfolio-section {
-    background-color: #27332F;
+    background-color: #fff;
 }
 
 .other-section {
-    background-color: #34282C;
+    background-color: #D3D3D3;
 }
 
-#about {
-    padding-top: 60px;
+#about,
+#portfolio,
+#other,
+#contact {
+    padding-top: 116px;
     padding-right: 12px;
     padding-left: 12px;
-}
-
-.photoTitle {
-    text-decoration: underline;
-    margin-top: 8px;
-    font-size: 18px;
 }
 
 .footer {
@@ -75,7 +95,7 @@ img {
 
 .social {
     text-decoration: none;
-    color: white;
+    color: #000;
 }
 
 .rrg {
@@ -85,6 +105,7 @@ img {
     border-radius: 3.6em;
     border-color: dodgerblue;
     border-width: 3px;
+    margin: 0 auto;
 }
 
 .image {
@@ -95,14 +116,15 @@ img {
 }
 
 .text {
+    padding-top: 24px;
     height: 90%;
     font-size: 1.5em;
-    color: white;
+    color: #000;
     position: absolute;
     visibility: hidden;
     top: 10%;
     border-bottom-style: solid;
-    border-bottom-color: lightgreen;
+    border-bottom-color: #000;
     border-bottom-width: 4px;
 }
 
