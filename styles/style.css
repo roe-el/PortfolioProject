@@ -113,12 +113,12 @@ li:hover {
     width: auto;
     margin: auto;
     position: relative;
+    margin-bottom: 4px;
 }
 
 .text {
-    padding-top: 24px;
     height: 90%;
-    font-size: 1.5em;
+    font-size: 3.2em;
     color: #000;
     position: absolute;
     visibility: hidden;
@@ -128,27 +128,49 @@ li:hover {
     border-bottom-width: 4px;
 }
 
+@media screen and (max-width: 1440px) {
+    .text {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .text {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .text,
+    .about-text {
+        font-size: 11px;
+    }
+}
+
 .image:hover .text {
     visibility: visible;
 }
 
-
-.text-hover {
-    margin-bottom: 12px;
-}
-
 button {
     background-color: dodgerblue;
-
 }
-.output{
-    margin-top:8px;
+
+.output {
+    margin-top: 8px;
     margin-right: 24px;
     margin-left: 24px;
 }
-.descript{
-    margin-bottom:4px;
+
+.descript {
+    margin-bottom: 4px;
 }
-.btn-group{
+
+.btn-group {
     margin-bottom: 4px;
 }
