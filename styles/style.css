@@ -174,3 +174,7 @@ button {
 .btn-group {
     margin-bottom: 4px;
 }
+
+#navbar-collapse {
+    overflow: hidden;
+}
